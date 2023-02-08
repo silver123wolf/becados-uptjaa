@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejemplo3 de Java Script</title>
+
+	<script type="text/javascript">
+		//Pedir confirmacion para visitar un pagina
+		function confirmar() 
+		{
+			return confirm("Esta pagina tiene contenido para mayores de 18 años. ¿Lo cumples?")
+		}
+	</script>
+</head>
+<body>
+	<a href="http://www.starwars.com/" onclick="return confirm()">Enlace a la pagina oficial de Star Wars</a>
+</body>
+</html>
